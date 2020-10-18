@@ -1,41 +1,13 @@
 @font-face {
-    font-family: IranSans_Normal;
-    src: url('../fonts/IRANSans(FaNum).ttf');
-    src: url('../fonts/IranSans(FaNum).eot?#iefix') format('embedded-opentype'), url('../fonts/IranSans(FaNum).ttf') format('truetype')
-}
-
-@font-face {
-    font-family: IranSans_Bold;
-    src: url('../fonts/IranSans(FaNum)_Bold.eot');
-    src: url('../fonts/IranSans(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/IranSans(FaNum)_Bold.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: IranSans_Light;
-    src: url('../fonts/IranSans(FaNum)_Light.eot');
-    src: url('../fonts/IranSans(FaNum)_Light.eot?#iefix') format('embedded-opentype'), url('../fonts/IranSans(FaNum)_Light.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: IranSans_Medium;
-    src: url('../fonts/IranSans(FaNum)_Medium.eot');
-    src: url('../fonts/IranSans(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/IranSans(FaNum)_Medium.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: IranSans_UltraLight;
-    src: url('../fonts/IranSans(FaNum)_UltraLight.eot');
-    src: url('../fonts/IranSans(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/IranSans(FaNum)_UltraLight.ttf') format('truetype')
+    font-family: IranSans;
+    src: url('../fonts/IRANSans.eot');
+    src: url('../fonts/IRANSans.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSans.ttf') format('truetype')
 }
 
 :root {
     --light: #f8f9fa;
     --dark: #343a40;
-    --font-family-IranSans_Normal: IranSans_Normal;
-    --font-family-IranSans_Bold: IranSans_Bold;
-    --font-family-IranSans_Light: IranSans_Light;
-    --font-family-IranSans_Medium: IranSans_Medium;
-    --font-family-IranSans_UltraLight: IranSans_UltraLight
+    --font-family-IranSans: IranSans;
 }
 
 *,
@@ -52,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    font-family: var(--font-family-IranSans_Light);
+    font-family: var(--font-family-IranSans);
     font-size: 14px;
     color: #626262;
     background: #d8dbe2;
